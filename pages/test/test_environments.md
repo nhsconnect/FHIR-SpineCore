@@ -26,7 +26,7 @@ The full details of these environments, including the endpoint URLs for all the 
 
 The above site also holds copies of the parent Root and SubCA certificates which you'll need to verify the SSL certificates registered against for Spine services (all endpoint certificates are children of these parent certificates).
 
-Please contact [Assurance Support service desk](mailto:sa.servicedesk@nhs.net) if you can't find the information required, or need help with obtaining an endpoint certificate to access a Spine environment.
+Please contact [Platforms support desk](mailto:platforms.supportdesk@nhs.net) if you can't find the information required, or need help with obtaining an endpoint certificate to access a Spine environment.
 
 # What is Opentest? #
 
