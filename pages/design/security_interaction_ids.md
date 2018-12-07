@@ -46,6 +46,8 @@ The legacy messaging interfaces designed in Spine 1 used the interactions define
 
 Newer APIs have adopted FHIR, and a new naming strategy has been defined for the interaction IDs for these APIs.
 
+{% include important.html content="GP Connect Interactions have not yet adopted this new naming standard - please refer to [FHIR Operation Guidance](https://developer.nhs.uk/apis/gpconnect/development_fhir_operation_guidance.html) in the GP Connect specification for GP Connect Interaction IDs." %}
+
 Service names will remain in the same format - e.g.:
 
 - Visitors and Migrants: ```urn:nhs:names:services:visitorsandmigrants```
