@@ -110,7 +110,7 @@ The ASID will be returned in the uniqueIdentifier attribute which is returned fr
 
 **Accredited System ID (ASID) Lookup for a National Spine Service**
 
-When the client wants to make a call to a national Spine service (e.g. NRLS, Visitors and Migrants, etc), the first step is to establish the Party Key for the Spine (there is a single Party Key for each Spine environment. This is fixed for each environment, so does not need to be looked up on SDS - to find the Party Key for the Spine environment refer to the “Authority Service Names” document for the relevant Spine environment - see Environments for details.
+When the client wants to make a call to a national Spine service (e.g. NRLS, Visitors and Migrants, etc), the first step is to establish the Party Key for the Spine (there is a single Party Key for each Spine environment. This is fixed for each environment, so does not need to be looked up on SDS - to find the Party Key for the Spine environment refer to the “Authority Service Names” document for the relevant Spine environment - see [Environments](test_environments.html) for details.
 
 
 ## ldapsearch configuration ##
