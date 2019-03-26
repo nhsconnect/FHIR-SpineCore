@@ -34,7 +34,7 @@ The steps shown in the diagram are detailed below.
 | 1b   | **PDS** returns NHS Number verification status, and the ODS code of the GP Practice system. |
 |      |      |
 |      | *Step 2 is optional in the sense that cached or configured endpoint details for the Practice may be available from a previous SDS interaction.* |    
-| 2a   | **Consumer** calls [Spine Directory Service (SDS)]((https://developer.nhs.uk/apis/gpconnect/integration_spine_directory_service.html) to discover the Accredited System ID (ASID) of the system which provides a FHIR endpoint at the practice identified by the specified ODS code. |
+| 2a   | **Consumer** calls [Spine Directory Service (SDS)](https://developer.nhs.uk/apis/gpconnect/integration_spine_directory_service.html) to discover the Accredited System ID (ASID) of the system which provides a FHIR endpoint at the practice identified by the specified ODS code. |
 | 2b   | **SDS** returns the ASID. | 
 | 2c   | **Consumer** calls Spine Directory Service again to discover the URL of the FHIR server endpoint at the practice | 
 | 2d   | **SDS** returns details of the FHIR endpoint. | 
