@@ -27,8 +27,6 @@ Once the provider server's endpoint is determined using the SDS a HTTP request t
 GET https://[proxy_server]/https://[provider_server]/[fhir_base]/[fhir_request]
 ```
 
-Consumer systems **MUST NOT** amend the portion of the above URL returned from SDS (from the `nhsMhsEndPoint` attribute); this is typically the `https://[provider_server]/[fhir_base]` portion but may vary based on service. If this element does not match that held in SDS, for example the domain name is replaced with its equivalent IP address, or has an added explicit port declaration such as `:443`, the request when sent will be blocked by the SSP.
-
 A number of Spine specific HTTP headers also need to be populated with the intended spine interactionID and system ASIDs.
 
 | Header               | Value |
