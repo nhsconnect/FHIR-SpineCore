@@ -373,5 +373,6 @@ In addition to errors, in some cases, an OperationOutcome might include a positi
 | --------- | -------------- | ------------- | ---------------------- | ----------- |
 | `201`     | information    | informational | RESOURCE_CREATED       | New resource created. |
 | `200`     | information    | informational | RESOURCE_DELETED       | Resource removed. |
+| `200`     | information    | informational | RESOURCE_UPDATED       | Resource has been successfully updated. |
 
 
