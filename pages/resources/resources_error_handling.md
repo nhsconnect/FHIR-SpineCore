@@ -375,4 +375,9 @@ In addition to errors, in some cases, an OperationOutcome might include a positi
 | `200`     | information    | informational | RESOURCE_DELETED       | Resource removed. |
 | `200`     | information    | informational | RESOURCE_UPDATED       | Resource has been successfully updated. |
 
+National Event Management Service (NEMS) will provide informational codes about Event Message type lifecycle when a Publisher system publishes an event:
 
+| HTTP code | Issue Severity | Issue type    |Spine error code - code | Spine error code - display |
+| --------- | -------------- | ------------- | ---------------------- | -------------------------- |
+| `202`     | information    | informational | DEPRECATED             | Event message type has been deprecated. |
+| `400`     | error          | invalid       | NO_LONGER_SUPPORTED    | Event messsage type is no longer supported. |
