@@ -380,4 +380,5 @@ National Event Management Service (NEMS) will provide informational codes about 
 | HTTP code | Issue Severity | Issue type    |Spine error code - code | Spine error code - display |
 | --------- | -------------- | ------------- | ---------------------- | -------------------------- |
 | `202`     | information    | informational | DEPRECATED             | Event message type has been deprecated. |
-| `400`     | error          | invalid       | NO_LONGER_SUPPORTED    | Event messsage type is no longer supported. |
+| `202`     | information    | informational | NO_LONGER_SUPPORTED    | Event message type is no longer supported. |
+| `400`     | error          | invalid       | WITHDRAWN    | Event message type has been withdrawn. |
