@@ -8,7 +8,7 @@ toc: false
 summary: A brief introduction to getting started with FHIR&reg; APIs for national Spine services.
 ---
 
-{% include important.html content="This site is under active development by NHS Digital and is intended to provide all the technical resources you need to successfully develop the APIs. This project is being developed using an agile methodology so iterative updates to content will be added on a regular basis." %}
+{% include important.html content="The content on this page is now out of date.  For up-to-date information, see the (API catalogue filtered for FHIR APIs)[https://digital.nhs.uk/developer/api-catalogue?filter=fhir]. " %}
 
 # Introduction #
 
